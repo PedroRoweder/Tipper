@@ -1,0 +1,85 @@
+html {
+    background-color: #2f3e46;
+}
+
+main {
+    background-color: #354f52;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+}   
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #cad2c5;
+    margin: 0 10px 10px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    display: block;
+    background: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #84a98c;
+    color: #cad2c5;
+}
+
+label {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #cad2c5;
+    background: none;   
+    border: 1px solid #84a98c;
+    border-radius: 20px;
+    padding: 1px 5px;
+}
+
+option {
+    background-color: #2f3061;
+    color: #cad2c5;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px solid #52796f;
+    background: none;
+    border-radius: 50px;
+    width: 60%;
+    color: #84a98c;
+    transition: 250ms;
+}
+
+button:hover {
+    width: 80%;
+    background-color: #52796f;
+}

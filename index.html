@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipper</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Raleway&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./dist/app.css">
+</head>
+<body>
+    <main>
+        <h1>Tipper</h1>
+        <form id="mainForm">
+            <input type="number" class="number-wrapper" name="billValue" id="billValue" placeholder="Bill Value" min="0">
+            <input type="number" name="people" id="people" placeholder="People" min="0">
+            <label for="serviceQuality">Service Quality</label>
+            <select id="serviceQuality" name="serviceQuality">
+                <option value="bad">Bad</option>
+                <option value="average">Average</option>
+                <option value="good">Good</option>
+                <option value="excellent">Excellent</option>
+            </select>
+            <button id="calculate" type="button">Calculate</button>
+            <input type="text" name="resultTip" id="resultTip" placeholder="Tip" disabled>
+            <input type="text" name="resultTotal" id="resultTotal" placeholder="Total" disabled>
+            <button id="clearButton" type="button">Clear</button>
+        </form>
+    </main>
+    <script src="./dist/app.js" refer></script>
+</body>
+</html>
