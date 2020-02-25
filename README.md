@@ -1,2 +1,2 @@
 # Tipper
-A tip calculator i made for study purposes.
+A Tip Calculator I made for study purposes.
